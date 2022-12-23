@@ -30,7 +30,7 @@ std::vector<uint8_t> get_text_section() {
 	return text;
 }
 
-//Example of hashing text section of
+//Example of hashing text section
 void hash_text_section()
 {
 	std::ifstream file(file_path, std::ios::binary);
